@@ -1,0 +1,8 @@
+tr,table,td{
+    border:1px;
+    border-style: solid;
+}
+.center{
+    margin-left: auto;
+    margin-right:auto;
+}
