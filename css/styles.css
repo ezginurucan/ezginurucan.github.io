@@ -1,8 +1,69 @@
-tr,table,td{
-    border:1px;
-    border-style: solid;
+a{
+    color:  #AEB6BF;
+    text-decoration: none;
+    background-color: transparent;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(90deg,#8d83a1,#214e77);
+}
+#h3-t_title{
+    color: whitesmoke ;
+    font-size: larger;
+    font-weight:unset;
+    text-align: start;
+}
+
+td{
+    color: #AEB6BF;
+    min-width: 50vh;
+    padding:5px 5px;
+    border:2px; 
+    background-color:#344378;
+  
+}
+.header{
+    background:linear-gradient(90deg,#000004 0%,#14202e);
+    background-size: cover;
+    position:fixed;
+    overflow:hidden;
+    padding: 10px ;
+    min-width: 97%;
+    border-radius: 5px;  
+}
+.back{
+        
+        background-image:url("https://images.hdqwalls.com/wallpapers/lake-aurora-po.jpg") ;
+        background-size:cover;
+        border-radius: 5px;
+        margin-top: 10px;
+        min-width: 100%;
+        min-height: 100vh;
+}
+.menu{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    padding:10px 10px;
+}
+.menu-items{
+    padding: 10px 10px;
+    margin: auto;
+    border-radius: 5px;
+    color:aliceblue;
+    
+}
+.hello{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size:large;
+    color:aliceblue;
+    padding-bottom: 5px;
 }
 .center{
+    display: flex;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 10%;
 }
