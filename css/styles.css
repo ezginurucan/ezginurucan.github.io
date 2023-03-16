@@ -1,4 +1,4 @@
-a{
+a{ 
     color:  #AEB6BF;
     text-decoration: none;
     background-color: transparent;
@@ -6,15 +6,16 @@ a{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background:linear-gradient(90deg,#8d83a1,#214e77);
+    color:#AEB6BF
 }
 #h3-t_title{
-    color: whitesmoke ;
+    color: #AEB6BF ;
     font-size: larger;
     font-weight:unset;
     text-align: start;
 }
 
-td{
+div td{
     color: #AEB6BF;
     min-width: 50vh;
     padding:5px 5px;
@@ -22,6 +23,7 @@ td{
     background-color:#344378;
   
 }
+
 .header{
     background:linear-gradient(90deg,#000004 0%,#14202e);
     background-size: cover;
@@ -65,5 +67,12 @@ td{
     display: flex;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 10%;
+    margin-top: 10px;
+}
+footer{
+    border-radius:5px ;
+    min-height:30vh;
+    padding: 5px 5px;
+    text-align: center; 
+    background:linear-gradient(90deg,#000004 0%,#14202e);
 }
