@@ -73,7 +73,7 @@ div td{
 }
 footer{
     border-radius:5px ;
-    min-height:30vh;
+    min-height:15vh;
     padding: 5px 5px;
     text-align: center; 
     background:linear-gradient(90deg,#000004 0%,#14202e);
