@@ -40,6 +40,7 @@ div td{
     border-radius: 5px;
     width: 100%;
     min-height: 100vh;
+    padding:10px;
 }
 .menu{
     display: flex;
@@ -77,4 +78,33 @@ footer{
     padding: 5px 5px;
     text-align: center; 
     background:linear-gradient(90deg,#000004 0%,#14202e);
+}
+.container {
+   padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
+.box {
+    flex-basis: 30%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.card {
+    color:#14202e;
+    background-color: white;
+    border-radius: 5px;
+    min-height: 200px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.card h2 {
+    margin-top: 0;
+}
+.card a{
+    color:#14202e;
+}
+.card p {
+    margin-bottom: 0;
 }
