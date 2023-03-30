@@ -117,3 +117,18 @@ footer{
     cursor: pointer;
   }
   
+  .social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .social-logos img {
+    background-color: #242525;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .social-logos img:hover {
+    background-color: #8d83a1;
+  }
