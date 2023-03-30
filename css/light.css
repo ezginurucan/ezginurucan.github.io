@@ -30,7 +30,7 @@ div td{
     background:linear-gradient(90deg,#f5f5f5 0%,#8d83a1);
     position:fixed;
     padding: 5px ;
-    min-width: 96%;
+    min-width: 98%;
     border-radius: 5px;  
 }
 .back{
@@ -38,7 +38,6 @@ div td{
     background-image:url("https://images.hdqwalls.com/wallpapers/lake-aurora-po.jpg") ;
     background-size:cover;
     border-radius: 5px;
-    width: 100%;
     min-height: 100vh;
     padding:10px;
 }
