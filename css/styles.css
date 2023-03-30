@@ -30,7 +30,7 @@ div td{
     background:linear-gradient(90deg,#000004 0%,#14202e);
     position:fixed;
     padding: 10px ;
-    min-width: 98%;
+    min-width: 96%;
     border-radius: 5px;  
 }
 .back{
@@ -108,3 +108,14 @@ footer{
 .card p {
     margin-bottom: 0;
 }
+.theme-button {
+    background-color: #f1c40f;
+    border: 2px solid #f1c40f;
+    color: #14202e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
