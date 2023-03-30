@@ -33,8 +33,7 @@ div td{
     min-width: 98%;
     border-radius: 5px;  
 }
-.back{
-        
+.back{      
     background-image:url("https://images.hdqwalls.com/wallpapers/lake-aurora-po.jpg") ;
     background-size:cover;
     border-radius: 5px;
@@ -116,5 +115,20 @@ footer{
     font-size: 16px;
     margin: 20px;
     cursor: pointer;
+  }
+  .social-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .social-logos img {
+    background-color: #8d83a1;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .social-logos img:hover{
+    background-color: #242525;
   }
   
