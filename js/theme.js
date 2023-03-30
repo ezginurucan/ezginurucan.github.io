@@ -8,4 +8,11 @@ function changeTheme() {
       document.querySelector(".theme-button").innerHTML = "Light Theme";
     }
   }
-  
+function mousein(){
+    var element = document.getElementById("buton");
+    element.style.backgroundColor= "pink";
+}
+function mouseOut(){
+  var element = document.getElementById("buton");
+  element.style.backgroundColor= "";
+}
