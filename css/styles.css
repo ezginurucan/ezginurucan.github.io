@@ -29,12 +29,11 @@ div td{
 .header{
     background:linear-gradient(90deg,#000004 0%,#14202e);
     position:fixed;
-    padding: 10px ;
+    padding: 5px ;
     min-width: 96%;
     border-radius: 5px;  
 }
 .back{
-        
     background-image:url("https://images.hdqwalls.com/wallpapers/lake-aurora-po.jpg") ;
     background-size:cover;
     border-radius: 5px;
