@@ -1,5 +1,5 @@
 function changeTheme() {
-    var link = document.getElementsByTagName("link")[0];
+    var link = document.getElementsByTagName("link")[4];
     if (link.getAttribute("href") == "css/styles.css") {
       link.setAttribute("href", "css/light.css");
       document.querySelector(".theme-button").innerHTML = "Dark Theme";
@@ -7,7 +7,8 @@ function changeTheme() {
       link.setAttribute("href", "css/styles.css");
       document.querySelector(".theme-button").innerHTML = "Light Theme";
     }
-  }
+}
+
 function mousein(){
     var element = document.getElementById("buton");
     element.style.backgroundColor= "#214e77";
