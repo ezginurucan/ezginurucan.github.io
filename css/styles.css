@@ -30,7 +30,6 @@ div td{
 
 .header{
     background:linear-gradient(90deg,#000004 0%,#14202e);
-    position:fixed;
     padding: 5px ;
     min-width: 98%;
     border-radius: 5px;  
