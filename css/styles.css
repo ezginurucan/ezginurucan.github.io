@@ -113,7 +113,7 @@ footer{
     font-family: inherit;
     font-size: inherit;
     background: none;
-    padding: 25px 80px;
+    padding: 5px 5px;
     text-transform: uppercase;
     
   }
@@ -195,13 +195,29 @@ footer{
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-@media (max-width: 700px) {
-    .box {   
-      min-width: 100%;
+@media only screen and (max-width: 768px) {
+    .header-text {
+      text-align: center;
+      font-size: 12px;
     }
-    .header{
-        min-width: 96%;
+    .card {
+        width: 50%;
+        font-size: smaller;
+     }
+    
+  }
+@media only screen and (max-width: 992px) {
+    .menu-items {
+      font-size: 14px;
     }
-
+  }
+  
+  
+  @media only screen and (max-width: 1200px) {
+    .card {
+      width: 50%;
+      font-size: smaller;
+    }
+    
   }
   
