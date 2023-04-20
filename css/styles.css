@@ -124,16 +124,7 @@ footer{
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
-.theme-button::before{
-    font-family: 'icomoon';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    position: relative;
 
-}
 
   .fa {
     padding: 20px;
@@ -155,13 +146,6 @@ footer{
       padding: 22px;
       transition: transform 0.3s, opacity 0.4s;
   }
-.btn-1c:after {
-    width: 0%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #fff;
-}
 
 .card  {
 	overflow: hidden; 
