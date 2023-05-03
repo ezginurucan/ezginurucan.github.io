@@ -3,6 +3,13 @@ a{
     text-decoration: none;
     background-color: transparent;
 }
+a:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+button{
+  border:none;
+}
 .navbar-title{
     color: #14202e;
     font-family: 'Righteous', sans-serif;
@@ -53,7 +60,6 @@ div td{
     padding: 10px 10px;
     margin: auto;
     border-radius: 5px;
-    color:#14202e;
     
 }
 .menu-items:hover{
@@ -123,18 +129,16 @@ footer{
  
 
 
-  .fa {
+ #logo .fa, #topButton .fa {
     padding: 20px;
     font-size: 30px;
     border-radius: 50%;
     background-color: #a1afe1;
-    width: 50px;
     text-align: center;
-    text-decoration: none;
     margin: 5px 2px;
   }
   
-  .fa:hover {
+  #logo .fa:hover, #topButton .fa:hover {
     opacity: 0.7;
     background-color: #8d83a1;
     color: aliceblue;
@@ -194,7 +198,11 @@ footer{
         display: block;
         margin: 10px 0;
       }
-      
+      #logo .fa, #topButton .fa{
+        font-size: smaller;
+        padding: 10px;
+      }
+        
   }
 @media only screen and (max-width: 992px) {
     .menu-items {
@@ -218,7 +226,4 @@ footer{
   border-radius: 50%; 
   cursor: pointer;
   transition: 0.3s; 
-  }
-  #topButton .fa{
-    background-color:#AEB6BF
   }
