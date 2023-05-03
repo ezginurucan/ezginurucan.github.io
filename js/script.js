@@ -6,7 +6,7 @@ var topButton = document.getElementById("topButton");
 
 window.onscroll = function() {
   var scrollPos = window.scrollY;
-  if (scrollPos > 300) {
+  if (scrollPos > 50) {
     topButton.style.display = "block";
   } else {
     topButton.style.display = "none";
