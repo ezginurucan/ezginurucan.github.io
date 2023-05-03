@@ -58,6 +58,7 @@ div td{
 }
 .menu-items:hover{
     border-bottom: 3px solid #14202e;
+    color:#344378;
 }
 .hello{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -113,17 +114,15 @@ footer{
     font-family: inherit;
     font-size: inherit;
     background: none;
-    color:aliceblue;
     padding: 5px 5px;
     text-transform: uppercase;
     
   }
-.theme-button::after {
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
+  .theme-button:hover{
+    background-color: #344378;
+    color:aliceblue;
+  }
+
 
   .fa {
     padding: 20px;
@@ -196,6 +195,7 @@ footer{
         display: block;
         margin: 10px 0;
       }
+      
   }
 @media only screen and (max-width: 992px) {
     .menu-items {
@@ -209,4 +209,17 @@ footer{
      font-size: smaller;
     }
   }
-  
+  #topButton{
+    display: none; /* 400 piksel yükseklikte düğmeyi görünür yap */
+    position: fixed;
+  bottom: 20px; /* Sayfanın altından 20 piksel yukarıda olsun */
+  right: 20px; /* Sayfanın sağ tarafından 20 piksel içeride olsun */
+  z-index: 999; /* Öncelik seviyesi yüksek olsun */
+  border: none; /* Kenarlık olmasın */
+  border-radius: 50%; /* Yuvarlak şekil ver */
+  cursor: pointer; /* Farenin üzerine geldiğinde imleç değişsin */
+  transition: 0.3s; /* Geçiş efekti ekle */
+  }
+  #topButton .fa{
+    background-color:#AEB6BF
+  }
