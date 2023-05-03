@@ -15,14 +15,13 @@ function changeTheme() {
 
 function mousein(){
   var element = document.getElementById("buton");
-  element.style.backgroundColor= "#214e77";
   element.style.border="aliceblue";
   element.style.color="aliceblue";
 }
 
 function mouseOut(){
   var element = document.getElementById("buton");
-  element.style.backgroundColor= "";
+  element.style.color="gray";
 }
 
 window.onload = function() {
