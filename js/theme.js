@@ -20,7 +20,13 @@ function mousein(){
 
 function mouseOut(){
   var element = document.getElementById("buton");
-  element.style.background="none";
+  if(document.cookie="theme=light"){
+    element.style.backgroundColor="rgb(141, 131, 161)";
+  }
+  else{
+    element.style.background="none";
+  }
+  
 }
 
 window.onload = function() {
