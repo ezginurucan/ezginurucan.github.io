@@ -20,7 +20,6 @@ function mousein(){
 
 function mouseOut(){
   var element = document.getElementById("buton");
-  element.style.background="none";
 }
 
 window.onload = function() {
