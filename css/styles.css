@@ -89,7 +89,7 @@ footer{
     background:linear-gradient(90deg,#000004 0%,#14202e);
 }
 .my_container {
-    padding:200px 0px 100px 0px;
+    margin: 5px;
     display: flex;
     flex-wrap: wrap;
 }
