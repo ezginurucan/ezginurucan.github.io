@@ -20,11 +20,13 @@ function mousein(){
 
 function mouseOut(){
   var element = document.getElementById("buton");
-  if(document.cookie="theme=light"){
-    element.style.backgroundColor="rgb(141, 131, 161)";
-  }
-  else{
-    element.style.background="none";
+  if (savedTheme){
+    if(document.cookie="theme=light"){
+      element.style.backgroundColor="rgb(141, 131, 161)";
+    }
+    else{
+      element.style.background="none";
+    }
   }
   
 }
