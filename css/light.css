@@ -110,18 +110,16 @@ footer{
     margin-bottom: 0;
 }
 .theme-button {
-    border: none;
+    border:2px solid gold;
+    border-radius: 5%;
+    background-color: gold;
     font-family: inherit;
     font-size: inherit;
-    background: none;
     padding: 5px 5px;
     text-transform: uppercase;
     
   }
-  .theme-button:hover{
-    background-color: #344378;
-    color:aliceblue;
-  }
+ 
 
 
   .fa {
