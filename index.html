@@ -3,11 +3,12 @@
     <head>
         <title>Ezginur UCAN's Personal Website</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
         <script src="js/theme.js"></script>
     </head>
     <body>
@@ -17,14 +18,14 @@
           <a href="index.html" class="menu-items">HOME</a>
           <a href="#about" class="menu-items">ABOUT</a>
           <a href="project.html" class="menu-items">PROJECTS</a>
-          <button id="buton" onclick="changeTheme()" class="theme-button " onmouseover="mousein()" onmouseout="mouseOut()">Light Theme</button> 
+          <button id="buton" onclick="changeTheme()" class="theme-button border " onmouseover="mousein()" onmouseout="mouseOut()">Light Theme</button> 
         </div>
       </div>
       <div class="back" >
         <div style=" height: 96%;padding:10vh">
           <img src=".\image\profile.png" style="width: 150px;height: 150px; border-radius: 5px;" class="center" >
          <div class="hello">
-          <code style="font-size: xxx-large;">
+          <code style="color:aliceblue;font-size: xxx-large;">
             HELLO WORLD!
           </code>
           <h3>I'm Ezginur</h3>
@@ -32,54 +33,64 @@
          </div>
         </div>
       </div>
-    <div >
-    <table class="center" >
-      <button id="topButton" onclick="Scroll()"><i class=" fa fa-arrow-up "></i></button>
-      <script src="js/script.js"></script>
-          <tbody>
-            <th id="about"style="text-align: start;"><h2 style="color:#14202e">ABOUT</h2></th>
-            <tr>
-              <td><h3 id="h3-t_title">SKILL</h3></td>
-              <td><ul>
-                <li>C</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>JavaScript</li>
-                <li>HTML-CSS</li>
-              </ul></td>
-            </tr>
-            <tr>
-              <td><h3  id="h3-t_title">EDUCATION</h3></td>
-              <td><h3>Köksal Ersayın Anatolian High School</h3><p>2015-2019</p>
-                <p>Diploma Grade :93,19/100</p>
-              <h3><a href="https://www.marmara.edu.tr/" >Marmara University</a> Faculty of Technology-<em>Computer Engineering</em></h3>
-              <p>2020-now</p>
-             <p>GPA:2,68/4</p></td>
-            </tr>
-            <tr>
-              <td><h3 id="h3-t_title" >EXPERIENCE </h3></td>
-              <td><h3 style="margin-top: 0%;">Amcor Flexibles TR Istanbul -<em>Internship</em></h3>
-                <p>July 2022-September 2022</p>
-                <p>I was an IT intern at Amcor Flexibles. During my internship, I learned about caniasERP as well as database and java programming.</p></td>
-            
-            </tr>
-          </tbody>
-        </table>
+      <div id="about" class="m-5  text-center">
+        <h1 class=" text-center">ABOUT</h1>
+        <button id="topButton" onclick="Scroll()"><i class=" fa fa-arrow-up "></i></button>
+        <script src="js/script.js"></script>
+      </div>
+      <div class="container mb-5 border border-dark justify-center align-items-center d-flex p-3 rounded">
+        <div class="row ">
+          <div class="col-md-6 justify-center align-items-center d-flex col-sm-4 ">
+            <h1>SKILLS</h1>
+          </div>
+          <div class="col-md-6 col-sm-4">
+            <img href="https://www.cprogramming.com/" src=".\image\C.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="C">
+            <img href="https://www.java.com/"src=".\image\Java.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="Java">
+            <img href="https://www.python.org/"src=".\image\python.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="python">
+            <img href="https://www.w3.org/html/"src=".\image\HTML.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="HTML">
+            <img href="https://www.w3.org/Style/CSS/"src=".\image\CSS.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="CSS">
+            <img href="https://www.javascript.com/"src=".\image\JavaScript.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="JavaScript">
+            <img href="https://legacy.reactjs.org/"src=".\image\React.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="Reactjs">
+            <img href="https://nextjs.org/showcase"src=".\image\Next.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="Nextjs">
+            <img href="https://www.microsoft.com/en-us/sql-server"src=".\image\MSSQL.png" style="width: 50px;height: 50px; border-radius: 5px;" alt="Microsoft SQL">
+            <img href="https://www.mysql.com/"src=".\image\mySQL.png" style="width: 50px;height: 50px; border-radius: 5px;" alt=" mySQL">
+          </div>
+          <div class="col-md-6 col-sm-4 justify-center align-items-center d-flex">
+            <h1>EDUCATION</h1>
+          </div>
+          <div class="col-md-6 col-sm-4 ">
+            <h3>Köksal Ersayın Anatolian High School</h3>
+            <p>2015-2019</p>
+            <p>Diploma Grade :93,19/100</p>
+            <h3><a href="https://www.marmara.edu.tr/" >Marmara University</a> Faculty of Technology-<em>Computer Engineering</em></h3>
+            <p>2020-now</p>
+            <p>GPA:2,68/4</p>
+          </div>
+          <div class="col-md-6 col-sm-4 justify-center align-items-center d-flex">
+            <h1>EXPERIENCE</h1>
+          </div>
+          <div class="col-md-6 col-sm-4 ">
+            <h3 style="margin-top: 0%;">Amcor Flexibles TR Istanbul -<em>Internship</em></h3>
+            <p>July 2022-September 2022</p>
+            <p>I was an IT intern at Amcor Flexibles. During my internship, I learned about caniasERP as well as database and java programming.</p>
+          </div>
+          
+        </div>
       </div>
       <footer>
         <div >
-          <a target="_blank" href="https://linkedin.com/in/ezginur-uçan-6762b726a">
+          <a id="logo" target="_blank" href="https://linkedin.com/in/ezginur-uçan-6762b726a">
             <i class="fa fa-linkedin "></i>
           </a> 
-          <a target="_blank" href="https://github.com/ezginurucan">
+          <a id="logo" target="_blank" href="https://github.com/ezginurucan">
             <i class="fa fa-github "></i>
           </a> 
-          <a target="_blank" href="mailto:ezginurucan55@gmail.com">
+          <a id="logo" target="_blank" href="mailto:ezginurucan55@gmail.com">
             <i class="fa fa-envelope-o "></i>
           </a>   
         </div> 
         <div>&copy; Copyright 2023 Ezginur UCAN </div>
       </footer>
    </body>
+   
 </html>
