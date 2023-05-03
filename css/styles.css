@@ -109,19 +109,17 @@ footer{
     margin-bottom: 0;
 }
 .theme-button {
-    border: none;
+    border:2px solid gold;
+    border-radius: 5%;
     font-family: inherit;
     font-size: inherit;
     color:gray;
-    background: none;
+    background-color: gold;
     padding: 5px 5px;
     text-transform: uppercase;
     
   }
-  .theme-button:hover{
-    background-color: #344378;
-    color:aliceblue;
-  }
+ 
 
 
   .fa {
