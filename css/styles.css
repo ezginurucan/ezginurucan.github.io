@@ -118,13 +118,10 @@ footer{
     text-transform: uppercase;
     
   }
- .theme-button::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
+  .theme-button:hover{
+    background-color: #344378;
+    color:aliceblue;
+  }
 
 
   .fa {
@@ -213,4 +210,18 @@ footer{
     }
     
   }
-  
+  #topButton{
+    display: none; /* 400 piksel yükseklikte düğmeyi görünür yap */
+    position: fixed;
+  bottom: 20px; /* Sayfanın altından 20 piksel yukarıda olsun */
+  right: 20px; /* Sayfanın sağ tarafından 20 piksel içeride olsun */
+  z-index: 999; /* Öncelik seviyesi yüksek olsun */
+  border: none; /* Kenarlık olmasın */
+  border-radius: 50%; /* Yuvarlak şekil ver */
+  background-color:#AEB6BF ;
+  cursor: pointer; /* Farenin üzerine geldiğinde imleç değişsin */
+  transition: 0.3s; /* Geçiş efekti ekle */
+  }
+  #topButton .fa{
+    background-color:#AEB6BF;
+  }
