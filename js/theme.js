@@ -20,8 +20,9 @@ function mousein(){
 
 function mouseOut(){
   var element = document.getElementById("buton");
+  var savedTheme = getCookie("theme");
   if (savedTheme){
-    if(document.cookie="theme=light"){
+    if(savedTheme==="theme=light"){
       element.style.backgroundColor="rgb(141, 131, 161)";
     }
     else{
