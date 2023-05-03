@@ -4,6 +4,13 @@ a{
     text-decoration: none;
     background-color: transparent;
 }
+a:hover{
+    text-decoration: none;
+    background-color: transparent;
+}
+button{
+    border:none;
+}
 .navbar-title{
     font-family: 'Righteous', sans-serif;
     color:aliceblue;
@@ -119,21 +126,16 @@ footer{
     text-transform: uppercase;
     
   }
- 
-
-
-  .fa {
+  #logo .fa, #topButton .fa{
     padding: 20px;
     font-size: 30px;
     border-radius: 50%;
     border:3px solid #14202e;
-    width: 50px;
     text-align: center;
-    text-decoration: none;
     margin: 5px 2px;
   }
   
-  .fa:hover {
+  #logo .fa:hover, #topButton .fa:hover {
       opacity: 0.7;
       background-color: #8d83a1;
       top: -2px;
@@ -206,6 +208,10 @@ footer{
     .box {
       font-size: smaller;
     }
+    #logo .fa, #topButton .fa{
+        font-size: smaller;
+        padding: 10px;
+      }
     
   }
   #topButton{
@@ -219,7 +225,4 @@ footer{
   background-color:#AEB6BF ;
   cursor: pointer; 
   transition: 0.3s; 
-  }
-  #topButton .fa{
-    background-color:#AEB6BF;
   }
