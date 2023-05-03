@@ -25,7 +25,6 @@ function mouseOut(){
   element.style.backgroundColor= "";
 }
 
-// Check for saved theme preference on page load
 window.onload = function() {
   var savedTheme = getCookie("theme");
   if (savedTheme) {
@@ -40,7 +39,6 @@ window.onload = function() {
   }
 }
 
-// Helper function to retrieve cookie value
 function getCookie(name) {
   var value = "; " + document.cookie;
   var parts = value.split("; " + name + "=");
