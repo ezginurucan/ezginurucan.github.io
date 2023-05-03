@@ -210,15 +210,15 @@ footer{
     }
   }
   #topButton{
-    display: none; /* 400 piksel yükseklikte düğmeyi görünür yap */
+    display: none; 
     position: fixed;
-  bottom: 20px; /* Sayfanın altından 20 piksel yukarıda olsun */
-  right: 20px; /* Sayfanın sağ tarafından 20 piksel içeride olsun */
-  z-index: 999; /* Öncelik seviyesi yüksek olsun */
-  border: none; /* Kenarlık olmasın */
-  border-radius: 50%; /* Yuvarlak şekil ver */
-  cursor: pointer; /* Farenin üzerine geldiğinde imleç değişsin */
-  transition: 0.3s; /* Geçiş efekti ekle */
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 999; 
+  border: none; 
+  border-radius: 50%; 
+  cursor: pointer;
+  transition: 0.3s; 
   }
   #topButton .fa{
     background-color:#AEB6BF
