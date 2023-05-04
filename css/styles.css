@@ -16,6 +16,7 @@ button{
     color:aliceblue;
 }
 body{
+    margin:0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background:linear-gradient(90deg,#8d83a1,#214e77);
     color:#AEB6BF;
