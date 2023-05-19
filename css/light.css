@@ -42,7 +42,7 @@ div td{
     border-radius: 5px;  
 }
 .back{      
-    background-image:url("https://images.hdqwalls.com/wallpapers/lake-aurora-po.jpg") ;
+    background-image:url(../image/lake-aurora-po.jpg) ;
     background-size:cover;
     border-radius: 5px;
     min-height: 100vh;
