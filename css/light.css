@@ -216,6 +216,10 @@ footer{
     .box {
      font-size: smaller;
     }
+    #logo .fa, #topButton .fa{
+      font-size: smaller;
+      padding: 10px;
+    }
   }
   #topButton{
     display: none; 
