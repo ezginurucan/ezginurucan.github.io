@@ -180,47 +180,46 @@ footer{
 	opacity: 1;
 	transition: transform 0.4s, opacity 0.1s;
 }
-@media only screen and(max-width:768px) {
-    .header-text {
-      text-align: center;
-      font-size: small;
-    }
-    .box {
-        min-width: 100%;
-      }
-      .menu {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    
-      .menu-items {
-        display: block;
-        margin: 10px 0;
-      }
-      #logo .fa, #topButton .fa{
-        font-size: smaller;
-        padding: 10px;
-      }
-      .back{
-        min-height: 50vh;
-      }
+@media only screen and (max-width:768px) {
+  .header-text {
+    text-align: center;
+    font-size: 12px;
   }
-@media only screen and (max-width: 992px) {
+  .box {
+      min-width: 100%;
+      font-size: smaller;
+   }
+   .menu {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
     .menu-items {
-      font-size: 14px;
+      display: block;
+      margin: 10px 0;
     }
+    .back{
+      min-height: 50vh;
+    }
+  
+}
+@media only screen and (max-width: 992px) {
+  .menu-items {
+    font-size: 14px;
   }
-  
-  
-  @media only screen and (max-width: 1200px) {
-    .box {
-     font-size: smaller;
-    }
-    #logo .fa, #topButton .fa{
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .box {
+    font-size: smaller;
+  }
+  #logo .fa, #topButton .fa{
       font-size: smaller;
       padding: 10px;
     }
-  }
+  
+}
   #topButton{
     display: none; 
     position: fixed;
