@@ -178,7 +178,7 @@ footer{
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-@media only screen and (max-width:412px) {
+@media only screen and (max-width:768px) {
     .header-text {
       text-align: center;
       font-size: 12px;
