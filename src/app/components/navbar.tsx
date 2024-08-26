@@ -19,7 +19,7 @@ const Navbar = ({ children }: LayoutProps) => {
       <header className="bg-gray-900 px-4 py-4 text-white">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-4xl font-bold">
-            <a href="/ezginurucan/">
+            <a href="/">
               <Image
                 src="/assets/ezginurucan-logo.png"
                 alt="ezginurucan"
@@ -41,7 +41,7 @@ const Navbar = ({ children }: LayoutProps) => {
               isOpen ? "flex" : "hidden"
             } sm:flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-8 mt-4 sm:mt-0`}
           >
-            <a href="/ezginurucan/" className="hover:text-gray-400">
+            <a href="/" className="hover:text-gray-400">
               Home
             </a>
             <a href="/ezginurucan/about" className="hover:text-gray-400">
