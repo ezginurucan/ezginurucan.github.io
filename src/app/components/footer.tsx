@@ -21,7 +21,7 @@ function Footer() {
             className="  w-1/2 sm:w-1/6 p-2 bg-contain  text-sm text-orange-700 hover:rounded-full hover:bg-gray-700 hover:rounded-lg hover:text-orange-500  "
           />
         </Link>
-        <Link href="https://www.instagram.com/nurezgi_ucn" passHref className="flex flex-col items-center justify-center" >
+        <Link href="https://www.instagram.com/nourlogue/" passHref className="flex flex-col items-center justify-center" >
           <FontAwesomeIcon
             icon={faInstagram}
             className="  w-1/2 sm:w-1/6   p-2 bg-contain  text-sm text-orange-700 hover:rounded-full hover:bg-gray-700 hover:rounded-lg hover:text-orange-500  "
